@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata&family=Orbitron:wght@800&display=swap&family=Outfit:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(images/background3.jpg);
+    background-position: center;
+    background-size: cover;
+ 
+}
+.container{
+    float: right;
+    height: 100vh;
+    width: 100%;    
+}
+
+.blur{
+    backdrop-filter: blur(1.5rem);
+    background: rgba(81, 92, 206, 0.356);
+    
+    height: auto;
+    background-size: cover;
+}
+
+.blur h1{
+    padding: 1.0rem 1.0rem .0rem 2.0rem;
+    font-family: Inconsolata;
+    color: azure;
+    font-size: 5.0rem;
+}
+.blur h2{
+    padding: 1.0rem 1.0rem 1.0rem 2.0rem;
+    font-family: Inconsolata;
+    color: azure;
+    font-size: 3.0rem;
+
+}
+.blur p{
+    padding: .0rem 5.0rem .0rem 2.0rem;
+    font-family: Inconsolata;
+    color: azure;
+    font-size: 1.7rem;
+
+}
+.blur h3{
+    padding: .0rem 1.0rem .0rem 2.0rem;
+    font-family: Inconsolata;
+    color: azure;
+    font-size: 2.3rem;
+}
+.blur h4{
+    padding: .0rem 1.0rem .0rem 2.0rem;
+    font-family: Inconsolata;
+    color: azure;
+    font-size: 1.5rem;
+}
+
+.contact-btns{
+
+    display: flex;
+    font-size: 4.0rem;
+}
+
+.mail{
+    margin: 2.0rem 1.0rem 2.0rem 12.0rem;
+    padding: 1.0rem;
+    background-color: rgb(255, 255, 255);
+    width: 35.0rem;
+    border-radius: 1.0rem;
+}
+
+.mail-button{
+    text-decoration: none;
+    display: inline-flex;
+    color: rgb(236, 111, 111);
+}
+
+.mail h2{
+    padding: .5rem 1.0rem;
+    font-family: Inconsolata;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.telegram{
+    margin: 2.0rem 1.0rem 2.0rem 8.0rem;
+    padding: 1.0rem;
+    background-color: rgb(255, 255, 255);
+    width: 35.0rem;
+    border-radius: 1.0rem;
+}
+
+.telegram-button{
+    text-decoration: none;
+    display: flex;
+    color: rgb(67, 124, 216);
+}
+
+.telegram h2{
+    padding: .5rem 1.0rem;
+    font-family: Inconsolata;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    
+}
+

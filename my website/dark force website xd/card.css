@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata&family=Orbitron:wght@800&display=swap&family=Outfit:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;   
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(images/background3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    float: right;
+    height: 100vh;
+    width: 100%;    
+}
+.blur{
+    backdrop-filter: blur(1.5rem);
+    background: rgba(81, 92, 206, 0.356);
+    width: 300vh;
+}
+
+.cards-session{
+    position: relative;
+    display: inline-flex;
+    margin: 2.0rem;
+}
+
+.card{
+    margin: 1.0rem;
+    padding: 1.0rem;
+    border-radius: .5rem;
+
+
+    background-color: rgb(212, 226, 241);
+}
+
+.card-image>img{
+    width: 26rem;
+    height: 26rem;
+    margin: .1rem .1rem .1rem .1rem;
+}
+
+.card h3{
+    font-size: 1.8rem;
+    padding: .5rem .2rem .1rem .1rem;
+    font-family: Inconsolata;
+}
+.card h2{
+    font-family: Inconsolata;
+    font-size: 2.5rem;
+    font-weight: 40rem;
+}
+.play i{
+    padding-left: 21.7rem;
+    margin-top: -3.9rem;
+    font-size: 4.3rem;
+    display: flex;
+    color: rgb(99, 192, 105);
+}
+
+
+.links h2{
+    display: inline-flex;
+    text-decoration: none;
+    margin: .0rem .7rem .0rem .7rem;
+    font-family: Inconsolata;
+    font-size: 2.0rem;
+  }
+.links p{
+    position: absolute;
+    top: 2.0rem;
+    left: 3.5rem;
+    font-family: Inconsolata;
+    color: aliceblue;
+    font-size: 2.0rem;
+}
+
+.btn-youtube{
+    font-size: 2rem;
+    padding: .1rem 0rem 0rem .3rem;
+    position: absolute;
+    top: 4.7rem;
+    left: 3.5rem;
+    color: rgb(255, 86, 74);
+    background-color: rgb(235, 218, 218);
+    border-radius: .3rem;
+}
+.btn-spotify{
+    font-size: 2rem;
+    padding: .1rem 0rem 0rem .3rem;
+    position: absolute;
+    top: 8.0rem;
+    left: 3.5rem;
+    color: rgb(64, 191, 68);
+    background-color: rgb(235, 218, 218);
+    border-radius: .3rem;
+  }
+.btn-itunes{
+    font-size: 2rem;
+    padding: .1rem 0rem 0rem .3rem;
+    position: absolute;
+    top: 11.3rem;
+    left: 3.5rem;
+    color: rgb(238, 115, 115);
+    background-color: rgb(235, 218, 218);
+    border-radius: .3rem;
+  }
+.btn-tidal{
+    font-size: 2rem;
+    padding: .1rem 0rem 0rem .3rem;
+    position: absolute;
+    top: 14.5rem;
+    left: 3.5rem;
+    color: rgb(36, 41, 56);
+    background-color: rgb(235, 218, 218);
+    border-radius: .3rem;
+  }
+.btn-amazon{
+    font-size: 2rem;
+    padding: .1rem 0rem 0rem .3rem;
+    position: absolute;
+    top: 17.7rem;
+    left: 3.5rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 218, 218);
+    border-radius: .3rem;
+  }
+.btn-napster{
+    font-size: 2rem;
+    padding: .1rem 0rem 0rem .3rem;
+    position: absolute;
+    top: 21.0rem;
+    left: 3.5rem;
+    color: rgb(57, 120, 196);
+    background-color: rgb(235, 218, 218);
+    border-radius: .3rem;
+  }
+
+
