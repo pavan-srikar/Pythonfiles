@@ -143,3 +143,10 @@ body{
   }
 
 
+.links{
+    display: none;
+}
+
+.link_active{
+    display: flex;
+}
